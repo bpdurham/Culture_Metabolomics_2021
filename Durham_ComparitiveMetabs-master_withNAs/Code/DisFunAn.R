@@ -1,3 +1,4 @@
+#modified from original code from Katherine Heal kheal.github.io
 #This analysis attempts to use the variables to be able to predict an assignment to a group.  Right now its just in and out of group (set it as test.group below).  There's a few things you'd want to report along the way for good measure, but the analysis works really well.  To see which compounds are best at discriminating an organism within (or not within), look at the coeff.vars.2 data frame paired with the final plot.  The compounds with the largest loadings (either pos or neg, check plot to see which) are the best at saying whether an organism is in a group
 
 source('SourceCode/biostats.R')
